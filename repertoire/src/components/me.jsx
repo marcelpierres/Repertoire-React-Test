@@ -15,7 +15,7 @@ class Me extends Component {
       <div className="container">
         <div className="row">
           <div className="col-centered">
-            <div className="card bg-light mb-3">
+            <div className="card bg-light  mb-3">
               <div className="card-header">
                 <img className="profpic" src={profpic} />
               </div>
@@ -31,8 +31,8 @@ class Me extends Component {
                     id="mail"
                     src={email}
                     alt="email"
-                    height="50"
-                    width="50"
+                    height="50px"
+                    width="50px"
                   />
                 </a>
 
@@ -41,8 +41,8 @@ class Me extends Component {
                     id="github"
                     src={github}
                     alt="github"
-                    height="50"
-                    width="50"
+                    height="50px"
+                    width="50px"
                   />
                 </a>
 
@@ -54,8 +54,8 @@ class Me extends Component {
                     id="linkedin"
                     src={linkedin}
                     alt="linkedin"
-                    height="50"
-                    width="50"
+                    height="50px"
+                    width="50px"
                   />
                 </a>
 
@@ -64,8 +64,8 @@ class Me extends Component {
                     id="resume"
                     src={resume}
                     alt="resume"
-                    height="50"
-                    width="50"
+                    height="50px"
+                    width="50px"
                   />
                 </a>
               </div>
