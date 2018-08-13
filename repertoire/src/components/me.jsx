@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MetaTags from "react-meta-tags";
 import profpic from "./images/profpic1.png";
 import email from "./images/email.png";
 import github from "./images/github.png";
@@ -13,6 +14,13 @@ class Me extends Component {
   render() {
     return (
       <div className="container">
+        <MetaTags>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
+        </MetaTags>
         <div className="row">
           <div className="col-centered">
             <div className="card bg-light  mb-3">
@@ -22,10 +30,7 @@ class Me extends Component {
               <div className="card-body">
                 <h2 className="name">Marcel-Pierre Samuels</h2>
                 <h4 className="status">Computer Science Graduate</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <p className="card-text" />
                 <a className="images" href="mailto:marcelpierre.s@gmail.com">
                   <img
                     id="mail"
